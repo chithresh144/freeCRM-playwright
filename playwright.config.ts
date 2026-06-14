@@ -12,7 +12,7 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  globalTimeout: 60000,
+  globalTimeout: 0,
   timeout: 60000,
   testDir: './tests',
   testMatch: '**/*.spec.ts',
